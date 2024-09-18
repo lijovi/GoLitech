@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Litech</title>
+    <link rel="stylesheet" href="stylemember.css">
+</head>
+<body>
+    <div class="kotakheader">
+        <a href="main.html">
+            <img src="logo.jpg" alt="" class="logo"></a>
+        <a href="aboutus.html" class="header">About Us</a>
+        <a href="ourproduct.html" class="header">Our Product</a>
+        <a href="ourstore.html" class="header">Our Store</a>
+        <a href="#" class="current">Membership</a>
+    </div>
+    <br>
+    <hr class="garis">
+
+    <div class="kotak">
+        <div class="regis">
+            <h1>- Personal Information -</h1>
+            <br>
+        </div>
+        <div class="member">
+            <form action="" id="form" onsubmit="validation(event)" method="post">
+            
+            <div class="info">
+                <div class="labelnama">
+                    <label for="nama">Full Name</label>
+                </div>
+                
+                <br>
+                <input type="text" id="nama" placeholder="Please Input Your Name">
+            </div>
+
+            <br>
+            <div class="info">
+                <div class="labelgender">
+                    <label for="gender">Gender</label>
+                </div>
+               
+                <br>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <br>
+            <div class="info">
+                <div class="labelemail">
+                    <label for="email">Email</label>
+                </div>
+                
+                <br>
+                <input type="email" id="email" placeholder="Please Input Your Email">
+            </div>
+
+            <br> 
+            <div class="info">
+                <div class="labelnum">
+                    <label for="num">Phone Number</label>
+                </div>
+                
+                <br>
+                <input type="text" id="num" placeholder="Please Input Your Phone Number">
+            </div>
+
+            <br>
+            <div class="info">
+                <div class="labeladd">
+                    <label for="alamat">Address</label>
+                </div>
+               
+                <br>
+                <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="Please Input Your Address"></textarea>
+            </div>
+            
+            <br>
+
+            <div class="button">
+                <input type="submit" value="Submit" id="submit">
+                <br><br>
+                <p id="errorMessage"></p>
+            </div>
+            
+                
+
+        </form>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="footer">
+        <div class="copyright">
+            <p>Copyright @ 2023 GoLitech | All Rights Reserved</p>
+        </div>
+        <p class="contact">Contact Us For More</p>
+        <div class="sosmed">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="facebook.png" alt="" class="facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Instagram.png" alt="" class="instagram">
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img src="whatsapp.png" alt="" class="whatsapp">
+            </a>
+        </div>
+    </div>
+
+    <script src="./membership.js"></script>
+</body>
+</html> 
