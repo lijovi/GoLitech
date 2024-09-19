@@ -1,0 +1,242 @@
+*{
+    text-decoration: none;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: sans-serif; */
+}
+
+/* @font-face{
+    font-family: "customfont";
+    src: url(Press Start 2P);
+} */
+
+body{
+    background-color: #03254c;
+}
+
+a{
+    color: whitesmoke;
+    font-size: xx-large;
+    /* display: inline-block; */
+    /* text-align: center; */
+    font-family: "mogra";
+    /* padding: 14px 25px; */
+}
+
+a:hover{
+    /* background-color: black; */
+    color: #f4af1b;
+    border-radius: 10px;
+    /* text-decoration-color:darkgray;
+    text-decoration: underline; */
+}
+
+.garisnav{
+    background-color: #03254c;
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid black; */
+}
+
+.kotakheader{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 20px; */
+    background-color: #03254c;
+    width: 100%;
+    height: 60px;
+    /* opacity: 0.5; */
+    
+    /* @media (max-width:$laptop) {
+        display: block;
+    } */
+}
+
+.header{
+    padding: 20px 20px;
+}
+
+.banner{
+    height: 600px;
+    /* width: 1000px; */
+    width: 100%;
+    text-align: center;
+    font-size:xx-large;
+    padding: 200px 20px;
+    background-image: url('banner.png');
+    /* border-radius: 10%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #03254c;
+    opacity: 0.8;   
+}
+
+.slogan{
+    font-size: 40px;
+}
+
+.slogan:hover{
+    font-size: 60px;
+    transition: width 2s;
+    transition-timing-function:  ease-in;
+}
+
+.garis{
+    background-color: silver;
+    /* color: silver; */
+    height: 8px;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: block;
+    opacity: 0.7;
+    position: relative;
+}
+
+.current{
+    color: #f4af1b;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+
+.instagram{
+    width: 52px;
+    height: 52px;
+    /* border-style: solid; */
+    /* border-color: black; */
+}
+
+.whatsapp{
+    /* padding-top: 5px; */
+    width: 40px;
+    height: 40px;
+    /* border-style: solid; */
+    /* border-color: black; */
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.sosmed{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    right: 15px;
+    /* border-style: solid; */
+    /* border-color: black; */
+}
+
+.contact{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 10px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.bestselling{
+    width: 800px;
+    height: 500px;
+    /* text-align: center; */
+    border-color: black;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+.kotakbestselling{
+    text-align: center;
+    width: 100%;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 820px ) {
+    a{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner{
+        font-size: large;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .kotakbestselling{
+        font-size: large;
+        width: 480px;
+        margin: auto;
+    }
+
+    .copyright{
+        font-size: 15px;
+    }
+    
+    .bestselling{
+        width: 450px;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .contact{
+        font-size: 15px;
+        right: 10px;
+        top: 25px;
+    }
+
+    .facebook{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .instagram{
+        width: 42px;
+        height: 42px;
+        /* border-style: solid; */
+        /* border-color: black; */
+    }
+    
+    .whatsapp{
+        /* padding-top: 5px; */
+        width: 30px;
+        height: 30px;
+        /* border-style: solid; */
+        /* border-color: black; */
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+
+}
